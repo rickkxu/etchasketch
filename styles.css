@@ -1,0 +1,14 @@
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 1000px;
+    flex-direction: row;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.square {
+    flex-grow: 1;
+}
