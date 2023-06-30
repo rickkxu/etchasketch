@@ -8,8 +8,20 @@
     </head>
     <body>
         <h1>Etch-a-Sketch</h1>
-        <button class="select">Enter Board Size</button>
-        <button class="clear">Clear Board</button>
-        <div class="board"></div>
+        <div class="container">
+            <div class="board"></div>
+            <div class="buttonContainer">
+                <div class="sliderContainer">
+                    <h2>Board Size</h2>
+                    <input type="range" min="4" max="100" value="16" class="slider">
+                    <h3>16 x 16</h3>
+                </div>
+                <div class="brushes">
+                    <button class="erase">Erase</button>
+                    <button class="rainbow">Rainbow</button>
+                </div>
+                <button class="clear">Clear Board</button>
+            </div>
+        </div>
     </body>
 </html>
